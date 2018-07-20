@@ -9,5 +9,7 @@
 import Foundation
 
 class FizzBuzz {
-    
+    func getWhatShouldSay(at counting: Int) -> String {
+        return "\(counting)"
+    }
 }
