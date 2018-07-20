@@ -62,6 +62,13 @@ class KataFizzBuzzPracticeTests: XCTestCase {
         assert(fizzBuzz.getWhatShouldSay(at: 80) == answer)
         assert(fizzBuzz.getWhatShouldSay(at: 95) == answer)
     }
+    
+    func testBothTripleAndQuintupleNumber() {
+        let answer = "FizzBuzz"
+        assert(fizzBuzz.getWhatShouldSay(at: 15) == answer)
+        assert(fizzBuzz.getWhatShouldSay(at: 45) == answer)
+        assert(fizzBuzz.getWhatShouldSay(at: 90) == answer)
+    }
 }
 
 
