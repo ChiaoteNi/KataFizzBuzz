@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		F4454B9A2102040000BAA5E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4454B992102040000BAA5E0 /* AppDelegate.swift */; };
-		F4454B9C2102040000BAA5E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4454B9B2102040000BAA5E0 /* ViewController.swift */; };
 		F4454B9F2102040000BAA5E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4454B9D2102040000BAA5E0 /* Main.storyboard */; };
 		F4454BA12102040100BAA5E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4454BA02102040100BAA5E0 /* Assets.xcassets */; };
 		F4454BA42102040100BAA5E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4454BA22102040100BAA5E0 /* LaunchScreen.storyboard */; };
 		F4454BAF2102040100BAA5E0 /* KataFizzBuzzPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4454BAE2102040100BAA5E0 /* KataFizzBuzzPracticeTests.swift */; };
+		F4454BBA2102044000BAA5E0 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4454BB92102044000BAA5E0 /* FizzBuzz.swift */; };
+		F4454BBC2102046E00BAA5E0 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4454BB92102044000BAA5E0 /* FizzBuzz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,6 @@
 /* Begin PBXFileReference section */
 		F4454B962102040000BAA5E0 /* KataFizzBuzzPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KataFizzBuzzPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4454B992102040000BAA5E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4454B9B2102040000BAA5E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F4454B9E2102040000BAA5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4454BA02102040100BAA5E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4454BA32102040100BAA5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +36,7 @@
 		F4454BAA2102040100BAA5E0 /* KataFizzBuzzPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataFizzBuzzPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4454BAE2102040100BAA5E0 /* KataFizzBuzzPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataFizzBuzzPracticeTests.swift; sourceTree = "<group>"; };
 		F4454BB02102040100BAA5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4454BB92102044000BAA5E0 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +78,8 @@
 		F4454B982102040000BAA5E0 /* KataFizzBuzzPractice */ = {
 			isa = PBXGroup;
 			children = (
+				F4454BB92102044000BAA5E0 /* FizzBuzz.swift */,
 				F4454B992102040000BAA5E0 /* AppDelegate.swift */,
-				F4454B9B2102040000BAA5E0 /* ViewController.swift */,
 				F4454B9D2102040000BAA5E0 /* Main.storyboard */,
 				F4454BA02102040100BAA5E0 /* Assets.xcassets */,
 				F4454BA22102040100BAA5E0 /* LaunchScreen.storyboard */,
@@ -197,8 +198,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4454B9C2102040000BAA5E0 /* ViewController.swift in Sources */,
 				F4454B9A2102040000BAA5E0 /* AppDelegate.swift in Sources */,
+				F4454BBA2102044000BAA5E0 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4454BAF2102040100BAA5E0 /* KataFizzBuzzPracticeTests.swift in Sources */,
+				F4454BBC2102046E00BAA5E0 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
