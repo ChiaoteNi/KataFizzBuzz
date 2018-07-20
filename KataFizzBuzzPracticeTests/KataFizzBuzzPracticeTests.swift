@@ -69,6 +69,13 @@ class KataFizzBuzzPracticeTests: XCTestCase {
         assert(fizzBuzz.getWhatShouldSay(at: 45) == answer)
         assert(fizzBuzz.getWhatShouldSay(at: 90) == answer)
     }
+    
+    func testOutOfRangeCase() {
+        let result = "Out of range."
+        assert(fizzBuzz.getWhatShouldSay(at: 101) == result)
+        assert(fizzBuzz.getWhatShouldSay(at: 0) == result)
+        assert(fizzBuzz.getWhatShouldSay(at: -1) == result)
+    }
 }
 
 
