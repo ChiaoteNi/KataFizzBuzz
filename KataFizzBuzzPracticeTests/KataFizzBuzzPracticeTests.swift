@@ -40,6 +40,17 @@ class KataFizzBuzzPracticeTests: XCTestCase {
         assert(fizzBuzz.getWhatShouldSay(at: 73) == "73")
         assert(fizzBuzz.getWhatShouldSay(at: 98) == "98")
     }
+    
+    func testTripleNumberValue() {
+        let answer = "Fizz"
+        assert(fizzBuzz.getWhatShouldSay(at: 3) == answer)
+        assert(fizzBuzz.getWhatShouldSay(at: 24) == answer)
+        assert(fizzBuzz.getWhatShouldSay(at: 36) == answer)
+        assert(fizzBuzz.getWhatShouldSay(at: 54) == answer)
+        assert(fizzBuzz.getWhatShouldSay(at: 78) == answer)
+        assert(fizzBuzz.getWhatShouldSay(at: 81) == answer)
+        assert(fizzBuzz.getWhatShouldSay(at: 99) == answer)
+    }
 }
 
 
