@@ -33,16 +33,12 @@ class KataFizzBuzzPracticeTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testNormalValue() {
+        assert(fizzBuzz.getWhatShouldSay(at: 1) == "1")
+        assert(fizzBuzz.getWhatShouldSay(at: 31) == "31")
+        assert(fizzBuzz.getWhatShouldSay(at: 56) == "56")
+        assert(fizzBuzz.getWhatShouldSay(at: 73) == "73")
+        assert(fizzBuzz.getWhatShouldSay(at: 98) == "98")
     }
 }
 
