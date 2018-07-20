@@ -10,6 +10,8 @@ import Foundation
 
 class FizzBuzz {
     func getWhatShouldSay(at counting: Int) -> String {
+        guard counting <= 100 && counting >= 1 else { return "Out of range." }
+        
         var result: String = ""
         
         result = counting % 3 == 0 ? "Fizz" : ""
