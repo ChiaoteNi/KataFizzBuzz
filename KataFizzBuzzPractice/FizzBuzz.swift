@@ -10,14 +10,12 @@ import Foundation
 
 class FizzBuzz {
     func getWhatShouldSay(at counting: Int) -> String {
-        if counting % 15 == 0 {
-            return "FizzBuzz"
-        } else if counting % 3 == 0 {
-            return "Fizz"
-        } else if counting % 5 == 0 {
-            return "Buzz"
-        } else {
-            return "\(counting)"
-        }
+        var result: String = ""
+        
+        result = counting % 3 == 0 ? "Fizz" : ""
+        result = counting % 5 == 0 ? result + "Buzz" : result
+        result = result.isEmpty ? "\(counting)" : result
+        
+        return result
     }
 }
