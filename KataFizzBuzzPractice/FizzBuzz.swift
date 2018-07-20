@@ -12,6 +12,8 @@ class FizzBuzz {
     func getWhatShouldSay(at counting: Int) -> String {
         if counting % 3 == 0 {
             return "Fizz"
+        } else if counting % 5 == 0 {
+            return "Buzz"
         } else {
             return "\(counting)"
         }
