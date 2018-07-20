@@ -10,6 +10,10 @@ import Foundation
 
 class FizzBuzz {
     func getWhatShouldSay(at counting: Int) -> String {
-        return "\(counting)"
+        if counting % 3 == 0 {
+            return "Fizz"
+        } else {
+            return "\(counting)"
+        }
     }
 }
