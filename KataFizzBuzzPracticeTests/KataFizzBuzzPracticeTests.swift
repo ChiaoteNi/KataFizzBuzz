@@ -51,6 +51,17 @@ class KataFizzBuzzPracticeTests: XCTestCase {
         assert(fizzBuzz.getWhatShouldSay(at: 81) == answer)
         assert(fizzBuzz.getWhatShouldSay(at: 99) == answer)
     }
+    
+    func testQuintupleNumberValue() {
+        let answer = "Buzz"
+        assert(fizzBuzz.getWhatShouldSay(at: 5) == answer)
+        assert(fizzBuzz.getWhatShouldSay(at: 20) == answer)
+        assert(fizzBuzz.getWhatShouldSay(at: 35) == answer)
+        assert(fizzBuzz.getWhatShouldSay(at: 50) == answer)
+        assert(fizzBuzz.getWhatShouldSay(at: 65) == answer)
+        assert(fizzBuzz.getWhatShouldSay(at: 80) == answer)
+        assert(fizzBuzz.getWhatShouldSay(at: 95) == answer)
+    }
 }
 
 
